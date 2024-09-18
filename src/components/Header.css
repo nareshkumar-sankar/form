@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+h1{
+    font-size: 37px;
+    font-weight: 600;
+    color: #1C755C;
+}
+p{
+    font-size: 12.2px;
+    font-weight: 600;
+    margin-bottom: 45px;
+    color: #417E6D;
+}

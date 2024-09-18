@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.input-style{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 350px;
+    outline: none;
+    margin-bottom: 50px;
+    border-color: #1C755C;
+    height: 18px;
+}
+
+#input-text{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 350px;
+    outline: none;
+    margin-bottom: 5px;
+    border-color: #1C755C;
+}
+#txt-count{
+    text-align: right;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #4F8677;
+}
+.container p{
+    margin: 0px;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #4E8776;
+}
+.container span{
+    color: rgb(201, 22, 22);
+}
+
+@media screen and (max-width:480px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+}
+@media screen and (min-width:480px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+}
+@media screen and (min-width:767px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+@media screen and (min-width:1200px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+    }
+}
